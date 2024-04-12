@@ -73,7 +73,7 @@ function Landing() {
           <div className="lcl--content">
             {socialsData.linkedIn && (
               <a
-                href="https://www.linkedin.com/in/soumya-ranjan-purohit-90a3a194/"
+                href="https://www.linkedin.com/in/ajay-g-72a18a201/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -85,7 +85,7 @@ function Landing() {
             )}
             {socialsData.github && (
               <a
-                href="https://github.com/cybervirus997"
+                href="https://github.com/AjayGol"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -97,15 +97,15 @@ function Landing() {
             )}
           </div>
         </div>
-        {/*<img*/}
-        {/*  src={headerData.image}*/}
-        {/*  alt=""*/}
-        {/*  className="landing--img"*/}
-        {/*  style={{*/}
-        {/*    opacity: `${drawerOpen ? "0" : "1"}`,*/}
-        {/*    borderColor: theme.secondary,*/}
-        {/*  }}*/}
-        {/*/>*/}
+        <img
+          src={headerData.image}
+          alt=""
+          className="landing--img"
+          style={{
+            opacity: `${drawerOpen ? "0" : "1"}`,
+            borderColor: theme.secondary,
+          }}
+        />
         <div
           className="landing--container-right col-4"
           style={{ backgroundColor: theme.secondary }}

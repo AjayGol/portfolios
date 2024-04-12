@@ -29,7 +29,7 @@ function Contacts() {
     const { theme } = useContext(ThemeContext);
 
 
-    
+
     const handleClose = (event, reason) => {
         if (reason === 'clickaway') {
             return;
@@ -44,11 +44,11 @@ function Contacts() {
             backgroundColor: `${theme.secondary}`,
             color: `${theme.tertiary}`,
             fontFamily: 'var(--primaryFont)',
-            fontWeight: 500,    
+            fontWeight: 500,
             transition: 'border 0.2s ease-in-out',
             "&:focus": {
                 border: `4px solid ${theme.primary600}`,
-            }    
+            }
         },
         message: {
             border: `4px solid ${theme.primary80}`,
@@ -59,17 +59,17 @@ function Contacts() {
             transition: 'border 0.2s ease-in-out',
             "&:focus": {
                 border: `4px solid ${theme.primary600}`,
-            }    
+            }
         },
         label: {
             backgroundColor: `${theme.secondary}`,
             color: `${theme.primary}`,
             fontFamily: 'var(--primaryFont)',
-            fontWeight: 600, 
+            fontWeight: 600,
             fontSize: '0.9rem',
             padding: '0 5px',
             transform: 'translate(25px,50%)',
-            display: 'inline-flex', 
+            display: 'inline-flex',
         },
         socialIcon: {
             width: '45px',
@@ -107,7 +107,7 @@ function Contacts() {
             }
         },
         submitBtn: {
-            backgroundColor:theme.primary, 
+            backgroundColor:theme.primary,
             color:theme.secondary,
             transition: '250ms ease-in-out',
             "&:hover": {
@@ -130,9 +130,9 @@ function Contacts() {
                     email: email,
                     message: message
                 }
-            
+
             //email sections
-                
+
                 emailjs.send('service_7mwrpfp','template_5jlde4m', responseData, 'user_BXHJ6DmhAdrMyslj668Q1')
                 .then((response) => {
                     console.log('SUCCESS!', response.status, response.text);
@@ -145,7 +145,7 @@ function Contacts() {
                 }, (err) => {
                 console.log('FAILED...', err);
                 });
-                
+
                 // axios.post(contactsData.sheetAPI, responseData)
                 //     .then(res => {
                 //         console.log('success')
@@ -163,14 +163,14 @@ function Contacts() {
             }
 
             //email sections
-            
+
         } else {
             setErrMsg('Enter all the fields')
             setOpen(true)
         }
 
     }
-    
+
     return (
         <div className="contacts" id="contacts" style={{backgroundColor: theme.secondary}}>
             <div className="contacts--container">
@@ -210,7 +210,7 @@ function Contacts() {
                             autoHideDuration={4000}
                             onClose={handleClose}
                         >
-                            <SnackbarContent 
+                            <SnackbarContent
                                 action={
                                     <React.Fragment>
                                         <IconButton size="small" aria-label="close" color="inherit" onClick={handleClose}>
@@ -237,7 +237,7 @@ function Contacts() {
                         </a>
                         <a href={`tel:${contactsData.phone}`} className="personal-details">
                             <div className={classes.detailsIcon}>
-                                <FiPhone/> 
+                                <FiPhone/>
                             </div>
                             <p style={{color:theme.tertiary}}>{contactsData.phone}</p>
                         </a>
@@ -264,49 +264,49 @@ function Contacts() {
                                     <FaLinkedinIn />
                                 </a>
                             )}
-                            {socialsData.instagram && (
-                                <a href={socialsData.instagram} target="_blank" rel="noreferrer" className={classes.socialIcon} >
-                                    <FaInstagram />
-                                </a>
-                            )}
-                            {socialsData.medium && (
-                                <a href={socialsData.medium} target="_blank" rel="noreferrer" className={classes.socialIcon} >
-                                    <FaMediumM />
-                                </a>
-                            )}
-                            {socialsData.blogger && (
-                                <a href={socialsData.blogger} target="_blank" rel="noreferrer" className={classes.socialIcon} >
-                                    <FaBloggerB />
-                                </a>
-                            )}
-                            {socialsData.youtube && (
-                                <a href={socialsData.youtube} target="_blank" rel="noreferrer" className={classes.socialIcon} >
-                                    <FaYoutube />
-                                </a>
-                            )}
-                            {socialsData.reddit && (
-                                <a href={socialsData.reddit} target="_blank" rel="noreferrer" className={classes.socialIcon} >
-                                    <FaRedditAlien />
-                                </a>
-                            )}
                             {socialsData.stackOverflow && (
                                 <a href={socialsData.stackOverflow} target="_blank" rel="noreferrer" className={classes.socialIcon} >
                                     <FaStackOverflow />
                                 </a>
-                            )} 
-                            {socialsData.codepen && (
-                                <a href={socialsData.codepen} target="_blank" rel="noreferrer" className={classes.socialIcon} >
-                                    <FaCodepen />
-                                </a>
                             )}
-                            {socialsData.gitlab && (
-                                <a href={socialsData.gitlab} target="_blank" rel="noreferrer" className={classes.socialIcon} >
-                                    <FaGitlab />
-                                </a>
-                            )}          
+                            {/*{socialsData.instagram && (*/}
+                            {/*    <a href={socialsData.instagram} target="_blank" rel="noreferrer" className={classes.socialIcon} >*/}
+                            {/*        <FaInstagram />*/}
+                            {/*    </a>*/}
+                            {/*)}*/}
+                            {/*{socialsData.medium && (*/}
+                            {/*    <a href={socialsData.medium} target="_blank" rel="noreferrer" className={classes.socialIcon} >*/}
+                            {/*        <FaMediumM />*/}
+                            {/*    </a>*/}
+                            {/*)}*/}
+                            {/*{socialsData.blogger && (*/}
+                            {/*    <a href={socialsData.blogger} target="_blank" rel="noreferrer" className={classes.socialIcon} >*/}
+                            {/*        <FaBloggerB />*/}
+                            {/*    </a>*/}
+                            {/*)}*/}
+                            {/*{socialsData.youtube && (*/}
+                            {/*    <a href={socialsData.youtube} target="_blank" rel="noreferrer" className={classes.socialIcon} >*/}
+                            {/*        <FaYoutube />*/}
+                            {/*    </a>*/}
+                            {/*)}*/}
+                            {/*{socialsData.reddit && (*/}
+                            {/*    <a href={socialsData.reddit} target="_blank" rel="noreferrer" className={classes.socialIcon} >*/}
+                            {/*        <FaRedditAlien />*/}
+                            {/*    </a>*/}
+                            {/*)}*/}
+                            {/*{socialsData.codepen && (*/}
+                            {/*    <a href={socialsData.codepen} target="_blank" rel="noreferrer" className={classes.socialIcon} >*/}
+                            {/*        <FaCodepen />*/}
+                            {/*    </a>*/}
+                            {/*)}*/}
+                            {/*{socialsData.gitlab && (*/}
+                            {/*    <a href={socialsData.gitlab} target="_blank" rel="noreferrer" className={classes.socialIcon} >*/}
+                            {/*        <FaGitlab />*/}
+                            {/*    </a>*/}
+                            {/*)}*/}
                         </div>
                     </div>
-                </div> 
+                </div>
             </div>
             <img src={theme.contactsimg} alt="contacts" className="contacts--img" />
         </div>

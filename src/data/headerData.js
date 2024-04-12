@@ -1,9 +1,9 @@
 import resume from "../assets/pdf/resume.pdf";
 
 export const headerData = {
-  name: "Soumya Ranjan Purohit",
+  name: "Ajay Gol",
   title: "Hello! I'am",
   image:
-    "https://user-images.githubusercontent.com/72969348/197381176-5c56ff1b-61e5-46c2-a593-e538e9569c99.jpg",
+    "https://github.com/AjayGol/portfolios/assets/77920960/532d87b6-8884-4bd9-ad32-e1c2f35ef1d5",
   resumePdf: resume,
 };

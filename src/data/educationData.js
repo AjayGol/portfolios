@@ -15,7 +15,7 @@ export const educationData = [
     },
     {
         id: 3,
-        institution: 'Kendriya Vidyalaya',
+        institution: 'Dipak High School, Amreli ',
         course: 'Secondary School Certificate',
         startYear: '2014',
         endYear: '2015'

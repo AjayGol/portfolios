@@ -14,7 +14,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme,logos })
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            width: 40, 
+            width: 40,
             height: 40,
             borderRadius: 50,
             border: `2px solid ${theme.tertiary}`,
@@ -48,36 +48,36 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme,logos })
                      <p className="project--desc" style={{background: theme.secondary, color: theme.tertiary}}>
                     {desc}
                     </p>
-                    <div className="project--lang" style={{marginBottom: "0",paddingBottom:"0", alignItems: 'center',display:"flex",flexFlow:"column",background: theme.secondary, color: theme.tertiary80 }}>
+                {/*    <div className="project--lang" style={{marginBottom: "0",paddingBottom:"0", alignItems: 'center',display:"flex",flexFlow:"column",background: theme.secondary, color: theme.tertiary80 }}>*/}
 
-                        <div>
-                            <p style={{ fontSize:"16px",marginBottom: "0",paddingBottom:"0"}}> Tech Stack used :</p>
-                        </div>
-                         
-                        <div style={{ width:"80%",display:"flex",flexFlow:"row",justifyContent:"space-evenly" }}>
+                {/*        <div>*/}
+                {/*            <p style={{ fontSize:"16px",marginBottom: "0",paddingBottom:"0"}}> Tech Stack used :</p>*/}
+                {/*        </div>*/}
+                {/*         */}
+                {/*        <div style={{ width:"80%",display:"flex",flexFlow:"row",justifyContent:"space-evenly" }}>*/}
 
-                            {logos.map((logo, id) => (
-                            
-                                <div  style={{width:"100%",alignItems: "center",textAlign: "center"}}key={id}>
-                                    <i class={logo}></i>
-                                    <p style={{ fontSize: "16px" }}>{logo === "fab fa-html5" ? "html" : logo === "fab fa-react" ? "react" : logo === "fas fa-database" ? "Mongo" : logo === "fab fa-js" ? "js" : logo === "fab fa-vuejs" ? "EJS" : logo === "fab fa-vuejs" ? "EJS" : logo === "fab fa-css3" ? "CSS" : logo === "fab fa-node" ? "Node.js" : logo === "fab fa-bootstrap" ? "Bootstrap" :  logo === "fab fa-etsy" ? "Express" : ""}</p>
-                                </div>
-                         ))}
+                {/*            {logos.map((logo, id) => (*/}
+                {/*            */}
+                {/*                <div  style={{width:"100%",alignItems: "center",textAlign: "center"}}key={id}>*/}
+                {/*                    <i class={logo}></i>*/}
+                {/*                    <p style={{ fontSize: "16px" }}>{logo === "fab fa-html5" ? "html" : logo === "fab fa-react" ? "react" : logo === "fas fa-database" ? "Mongo" : logo === "fab fa-js" ? "js" : logo === "fab fa-vuejs" ? "EJS" : logo === "fab fa-vuejs" ? "EJS" : logo === "fab fa-css3" ? "CSS" : logo === "fab fa-node" ? "Node.js" : logo === "fab fa-bootstrap" ? "Bootstrap" :  logo === "fab fa-etsy" ? "Express" : ""}</p>*/}
+                {/*                </div>*/}
+                {/*         ))}*/}
 
-                        </div>
-                        
-                </div>
+                {/*        </div>*/}
+                {/*        */}
+                {/*</div>*/}
                     <div className="project--showcaseBtn">
                         <a href={demo} target="_blank" rel="noreferrer" className={classes.iconBtn}>
                             <FaPlay className={classes.icon}/>
                         </a>
-                        <a href={code} target="_blank" rel="noreferrer" className={classes.iconBtn}>
-                            <FaCode className={classes.icon}/>
-                        </a>
+                        {/*<a href={code} target="_blank" rel="noreferrer" className={classes.iconBtn}>*/}
+                        {/*    <FaCode className={classes.icon}/>*/}
+                        {/*</a>*/}
                     </div>
                 </div>
-               
-               
+
+
             </div>
         </Fade>
     )

@@ -1,7 +1,6 @@
 export const contactsData = {
-    email: 'soumyaranjanpurohit46@gmail.com',
-    phone: '6261384164',
-    address: 'Bargarh,Odisha',
-
+    email: 'ajaygoldev@gmail.com',
+    phone: '+91 99040 29899',
+    address: 'Surat Gujarat India.',
     sheetAPI: ''
 }

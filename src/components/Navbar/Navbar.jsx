@@ -125,13 +125,13 @@ function Navbar() {
     const classes = useStyles();
 
 
-    
+
 
 
     return (
         <div className="navbar">
             <div className="navbar--container">
-                <h1 style={{color:"white"}}>SoumyaRanjan</h1>
+                <h1 style={{color:"white"}}>Ajay Gol</h1>
 
                 <IoMenuSharp className={classes.navMenu} onClick={handleDrawerOpen}/>
             </div>
