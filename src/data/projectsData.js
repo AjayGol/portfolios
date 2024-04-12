@@ -6,25 +6,25 @@ export const projectsData = [
         projectName: 'Trinkerr',
         projectDesc: 'Replicate stock portfolios of India\'s best investors in a single click. Engage with a like-minded community of stock market enthusiasts on Trinkerr feeds and Virtual Trading through buy and sell call put trading.',
         tags: ["React", "React Native", "MongoDb"],
-        logos: ["fab fa-react","fab fa-etsy","fab fa-node","fas fa-database"],
+        logos: ["fab fa-react","fab fa-js","fas fa-database"],
         demo: 'https://play.google.com/store/apps/details?id=com.trinkerr.app&hl=en_IN&gl=US',
-        image: "https://github.com/AjayGol/portfolios/assets/77920960/3125426d-d2e7-4c65-a9f0-13199bc53bc2"
+        image: "https://github.com/AjayGol/portfolios/assets/77920960/492214ce-387c-425b-b161-26490c3fa6aa"
     },
     {
         id: 2,
-        projectName: 'Brain-buddy',
+        projectName: 'Brainbuddy',
         projectDesc: 'Brain-buddy is designed to rewire your brain, freeing you from sexual addiction so you become stronger, smarter and happier. 10+ Lakh users in iOS and android.',
         tags: ["React", "Express.js", "Node.js", "Bootstrap"],
-        logos: ["fab fa-react","fab fa-bootstrap", "fab fa-js", "fab fa-node"],
+        logos: ["fab fa-react", "fab fa-js", "fab fa-node"],
         demo: 'https://itunes.apple.com/app/brainbuddy/id726780077?ign-mpt=uo=5',
-        image: "https://github.com/AjayGol/portfolios/assets/77920960/4f5b396f-ec83-407c-a059-18e270982b6e"
+        image: "https://github.com/AjayGol/portfolios/assets/77920960/3f751b79-801e-4e76-b2dd-e8bba444fa1d"
     },
         {
         id: 3,
         projectName: 'Little Birdie',
-        projectDesc: 'Save money with Little Birdie. This handy little app will help you manage your subscriptions and regular payments. Little Birdie will show you what you’ve got, alert you to upcoming payments or renewals, find you better deals, and help you switch or cancel.',
+        projectDesc: 'Save money with Little Birdie. This handy little app will help you manage your subscriptions and regular payments. show you what you’ve got, alert you to upcoming payments, find you better deals, and help you switch or cancel.',
         tags: ["Html", "css", "javascript"],
-         logos: ["fab fa-html5", "fab fa-css3", "fab fa-js"],
+         logos: ["fab fa-react", "fas fa-code", "fab fa-js"],
         demo: 'https://apps.apple.com/in/app/little-birdie-get-best-price/id1606710997',
         image: "https://github.com/AjayGol/portfolios/assets/77920960/868f3abe-f896-4469-a0ea-4c5c059a4650"
     },

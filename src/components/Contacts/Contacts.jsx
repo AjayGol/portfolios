@@ -264,11 +264,11 @@ function Contacts() {
                                     <FaLinkedinIn />
                                 </a>
                             )}
-                            {socialsData.stackOverflow && (
-                                <a href={socialsData.stackOverflow} target="_blank" rel="noreferrer" className={classes.socialIcon} >
-                                    <FaStackOverflow />
-                                </a>
-                            )}
+                            {/*{socialsData.stackOverflow && (*/}
+                            {/*    <a href={socialsData.stackOverflow} target="_blank" rel="noreferrer" className={classes.socialIcon} >*/}
+                            {/*        <FaStackOverflow />*/}
+                            {/*    </a>*/}
+                            {/*)}*/}
                             {/*{socialsData.instagram && (*/}
                             {/*    <a href={socialsData.instagram} target="_blank" rel="noreferrer" className={classes.socialIcon} >*/}
                             {/*        <FaInstagram />*/}
