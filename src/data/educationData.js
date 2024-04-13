@@ -11,13 +11,13 @@ export const educationData = [
         institution: 'Forward School, Amreli ',
         course: `Higher Secondary Certificate`,
         startYear: '2016',
-        endYear: '2017'
+        endYear: '2017s'
     },
     {
         id: 3,
         institution: 'Dipak High School, Amreli ',
         course: 'Secondary School Certificate',
-        startYear: '2014',
-        endYear: '2015'
+        startYear: '2015',
+        endYear: '2016'
     },
 ]
