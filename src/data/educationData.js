@@ -11,7 +11,7 @@ export const educationData = [
         institution: 'Forward School, Amreli ',
         course: `Higher Secondary Certificate`,
         startYear: '2016',
-        endYear: '2017s'
+        endYear: '2017'
     },
     {
         id: 3,
