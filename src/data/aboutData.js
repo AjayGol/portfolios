@@ -1,6 +1,6 @@
 export const aboutData = {
     title: "Who I am",
-    description1: `Results-oriented React-Native and iOS developer with 3+ years experience in development. I make it my goal to create mobile apps with the user in mind, creating applications with a usable and intuitive user interface experience. I also understand the importance of creating highly readable and easily maintainable source code. I am constantly striving to learn new technologies and look to ways to better myself in this rapidly changing industry. `,
+    description1: `I am a results-oriented React Native and iOS developer with over 4 years and 8 months of hands-on experience in building and maintaining mobile applications. My focus is on creating user-centric apps that offer smooth, intuitive, and engaging user experiences. I take pride in writing clean, readable, and maintainable code that supports long-term scalability and performance. I stay up to date with the latest technologies and industry trends, always seeking opportunities to improve my skills and deliver high-quality solutions. Passionate about solving real-world problems through technology, I bring dedication, adaptability, and a strong work ethic to every project I work on.`,
     description2: "",
     image: 2
 }
