@@ -3,7 +3,7 @@ export const experienceData = [
         id: 3,
         company: `MealPe | Cafeteria & Meal Solution `,
         jobtitle: 'Sr React Native Developer',
-        startYear: 'May 2024 to March-2025 - (8Month)',
+        startYear: 'May 2024 to June-2025 - (2Y&1M)',
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const experienceData = [
         id: 1,
         company: 'Freelancer Work',
         jobtitle: 'React Native and React JS Developer',
-        startYear: 'May 2020 - Nov 2021 - (1Y&6M)',
+        startYear: 'Mar 2020 - Nov 2021 - (1Y&8M)',
     },
 ]
 
